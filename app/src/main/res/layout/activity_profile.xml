@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context=".Profile" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/ProfilePic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/soft_white"
+        android:visibility="gone"
+        android:layout_below="@+id/ProfilePic"
+        android:layout_alignLeft="@+id/ProfilePic" />
+
+    <TextView
+        android:id="@+id/ProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/soft_white"
+        android:visibility="gone"
+        android:layout_below="@+id/ProfileName"
+        android:layout_alignLeft="@+id/ProfileName"
+        android:layout_marginTop="10dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/SignInButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:visibility="visible"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/SignOutButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Logout"
+        android:visibility="gone"
+        android:background="@drawable/photoapptheme_btn_default_holo_light"
+        android:layout_below="@+id/ProfileEmail"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/RevokeAccessButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RevokeAccess"
+        android:visibility="gone"
+        android:background="@drawable/photoapptheme_btn_default_holo_light"
+        android:layout_below="@+id/SignOutButton"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+
+</RelativeLayout>
+

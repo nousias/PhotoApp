@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name" translatable="false">PhotoApp</string>
+    <string name="title_activity_photo_app" translatable="false">PhotoApp</string>
+    <string name="title_activity_position" translatable="false">Position</string>
+    <string name="title_activity_search" translatable="false">SearchActivity</string>
+    <string name="title_activity_upload" translatable="false">UploadActivity</string>
+    <string name="title_activity_about" translatable="false">About</string>
+    <string name="title_activity_log_in" translatable="false">LogIn</string>
+    <string name="title_activity_logout" translatable="false">Logout</string>
+    <string name="title_activity_results" translatable="false">Results</string>
+    <string name="title_activity_take_photo" translatable="false">TakePhoto</string>
+    <string name="title_activity_upload_step2" translatable="false">UploadStep2</string>
+    <string name="title_activity_fullscreen_photo" translatable="false">FullscreenPhoto</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_login">Login</string>
+    <string name="action_language">Language</string>
+    <string name="action_about">About the app</string>
+
+    <string name="Welcome">Welcome!</string>
+    <string name="MainActivity1">You can</string>
+    <string name="Search">Search</string>
+    <string name="MainActivity2">for an image</string>
+    <string name="Upload">Upload</string>
+    <string name="MainActivity3">one of your own</string>
+    <string name="AboutInfo">This application is still under development. If any bugs are found please contact me.</string>
+    <string name="Creator">Nousias Athanasios</string>
+    <string name="Email" translatable="false">it21026@hua.gr</string>
+    <string name="LoginPrompt">Please login with your Google Account</string>
+    <string name="SearchInstructions">Hold you phone in a horizontal position and point the top of the arrow towards the location you want the photo to be from.</string>
+    <string name="PressNext">Press next when you are ready.</string>
+    <string name="OK">OK</string>
+    <string name="Next">Next</string>
+    <string name="Logout">Logout</string>
+    <string name="RevokeAccess">Revoke access</string>
+    <string name="UserDataError">There was an error fetching user data.</string>
+    <string name="SigningIn">Signing in &#8230;</string>
+    <string name="SigningOut">Signing out &#8230;</string>
+    <string name="Connecting">Connecting &#8230;</string>
+    <string name="LoadingUserInfo">Loading your account\'s information</string>
+    <string name="ConnectedUser">You have successfully connected!</string>
+    <string name="ToastLogin">You need to log in first to upload a photo.</string>
+    <string name="EmptyResults">Τhere were no photos matching your current location, you can try again from a different one.</string>
+    <string name="SuccessfulSearch">Search was successful! Downloading photos.</string>
+    <string name="Error" translatable="false">Error </string>
+    <string name="Searching">Searching &#8230;</string>
+    <string name="ResultRow_Name">Name: </string>
+    <string name="ResultRow_Description">Description: </string>
+    <string name="NotAvailable">Not available</string>
+    <string name="ErrorUploadData">There was an error uploading the photo\'s information to the server. Please try again.</string>
+    <string name="ErrorUploadPhoto">There was an error trying to upload the photo to the server. Please try again.</string>
+    <string name="SuccessfulUploadPhoto">Photo was upload to server successfully!</string>
+    <string name="ServerError">There was a problem communicating with the server. Please try again.</string>
+    <string name="AdditionalPhotoInfo">If you wish you can add a name and description to your photo.</string>
+    <string name="PhotoName">Name</string>
+    <string name="Or">Or</string>
+    <string name="PhotoDescription">Description</string>
+    <string name="NoCameraSupport">"Sorry, your device does no support any camera application"</string>
+    <string name="ImageCaptureCanceled">Image capture was canceled.</string>
+    <string name="ImageCaptureError">There was a problem capturing the image. Please try again.</string>
+    <string name="UploadData">Uploading data to server, please wait.</string>
+    <string name="UploadPhoto">Uploading photo to server, please wait.</string>
+    <string name="ImageFileError">There was a problem creating the image file. Please Try again.</string>
+    <string name="FileTooBig">The size of the photo is too big. Αdjust your camera setings and try again.</string>
+    <string name="UploadInstructions">Hold you phone in a horizontal position and point the top of the arrow towards the location your photo will be from.</string>
+    <string name="UploadStep2Instructions">Now that the location\'s informations have been recorded, the next step is to take the photograph.</string>
+
+    <string name="alert_internet_gps">An internet connection and GPS services are required.\nTurn them on and try again.</string>
+    <string name="alert_internet">An internet connection is required.\nTurn WiFi or cellular data on and try again.</string>
+    <string name="alert_gps">GPS services are required.\nPlease turn GPS on and try again.</string>
+    <string name="alert_problem_data">There seems to have been a problem in collecting all necessary data.\nPlease try again.</string>
+    <string name="alert_missing_id">There seems to have been a problem signing in, please go back and try loging in again.</string>
+    <string name="alert_no_sensors">Your device does not seem to have the appropriate sensors to support the application.</string>
+    <string name="alert_no_gps">Your device does not support gps services which are required by the applcation.</string>
+
+</resources>

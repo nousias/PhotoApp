@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="action_login">Είσοδος</string>
+    <string name="action_logout">Έξοδος</string>
+    <string name="action_profile">Προφίλ</string>
+    <string name="action_language">Γλώσσα</string>
+    <string name="action_about">Σχετικά με την εφαρμογή</string>
+
+    <string name="Welcome">Καλως Ηλθατε!</string>
+    <string name="MainActivity1">Μπορείτε να</string>
+    <string name="Search">Αναζητήσετε</string>
+    <string name="MainActivity2">μια φωτογραφία</string>
+    <string name="Upload">Ανεβάσετε</string>
+    <string name="MainActivity3">τη δική σας στη συλλογή</string>
+    <string name="AboutInfo">Αυτή η εφαρμογή είναι ακόμη υπό ανάπτυξη. Παρακαλώ ενημερώστε με για όποιο πρόβλημα εντοπίσετε</string>
+    <string name="Creator">Νούσιας Αθανάσιος</string>
+    <string name="LoginPrompt">Παρακαλώ πραγματοποιήστε είσοδο με τον Google λογαριασμό σας</string>
+    <string name="PressNext">Πατήστε "Επόμενο" για να συνεχίσετε</string>
+    <string name="OK">OK</string>
+    <string name="Next">Επόμενο</string>
+    <string name="ToastLogin">Πρέπει να είστε συνδεδεμένος για να ανεβάσετε μια φωτογραφία</string>
+    <string name="AdditionalPhotoInfo">Αν θέλετε μπορείτε να προσθέσετε όνομα και περιγραφή στην φωτογραφία σας</string>
+    <string name="ConnectedUser">Συνδεθήκατε επιτυχώς!</string>
+    <string name="Connecting">Πραγματοποιείται σύνδεση &#8230;</string>
+    <string name="EmptyResults">Δεν βρέθηκαν φωτογραφίες από την τοποθεσία που βρίσκεσκεστε. Μπορείτε να προσπαθήσετε εκ νέου από μια άλλη.</string>
+    <string name="ErrorUploadData">Παρουσιάστηκε σφάλμα κατά την αποστολή των στοιχείων της φωτογραφίας στο εξυπηρετητή. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="ErrorUploadPhoto">Παρουσιάστηκε σφάλμα κατά την αποστολή της φωτογραφίας στο εξυπηρετητή. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="FileTooBig">Το μέγεθος της φωτογραφίας είναι πολύ μεγάλο. Προσαρμόστε τις ρυθμίσεις της κάμερας και προσπαθήστε ξανά.</string>
+    <string name="ImageCaptureCanceled">Η λήψη φωτογραφίας ακυρώθηκε.</string>
+    <string name="ImageCaptureError">Παρουσιάστηκε σφάλμα κατά την λήψη της φωτογραφίας. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="ImageFileError">Παρουσιάστηκε σφάλμα κατα τη δημιουργία του αρχείου φωτογραφίας. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="LoadingUserInfo">Λήψη των πληρογοριων του λογαριασμού σας</string>
+    <string name="Logout">Έξοδος</string>
+    <string name="NoCameraSupport">Η συσκευή σας δεν υποστηρίζει τη λειτουργία κάμερας.</string>
+    <string name="NotAvailable">Μη διαθέσιμο</string>
+    <string name="Or">Ή να</string>
+    <string name="PhotoDescription">Περιγραφή</string>
+    <string name="PhotoName">Όνομα</string>
+    <string name="ResultRow_Description">Περιγραφή</string>
+    <string name="ResultRow_Name">Όνομα</string>
+    <string name="Searching">Αναζήτηση &#8230;</string>
+    <string name="SigningIn">Πραγματοποιείται είσοδος &#8230;</string>
+    <string name="SigningOut">Πραγματοποιείται έξοδος &#8230;</string>
+    <string name="SuccessfulSearch">Επιτυχής αναζήτηση! Γίνεται λήψη των φωτογραφιών.</string>
+    <string name="SuccessfulUploadPhoto">Το ανέβασμα της φωτογραφίας ολοκληρώθηκε επιτυχώς!</string>
+    <string name="UploadData">Αποστολή στοιχείων στον εξυπηρετητή, παρακλώ περίμενετε.</string>
+    <string name="ServerError">Υπήρξη κάποιο πρόβλημα κατά την επικοινωνία με τον εξυπηρετητή. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="UploadPhoto">Γίνεται ανέβασμα της φωτογραφίας, παρακαλώ περιμένετε.</string>
+    <string name="UploadStep2Instructions">Το επόμενο βήμα μετά την συγκέντρωση των απαραίτητων πληροφοριών είναι η λήψη της φωτογραφίας.</string>
+    <string name="UserDataError">Υπήρξε πρόβλημα κατά την λήψη του προφίλ χρήστη.</string>
+    <string name="alert_internet_gps">Η εφαρμογή απαιτεί σύνδεση διαδικτύου και υπηρεσίες GPS.\nΕνεργοποιήστε τες και δοκιμάστε εκ νέου</string>
+    <string name="alert_internet">Η εφαρμογή απαιτή σύνδεση στο διαδίκτυο.\n Ενεργοποιήστε το  WiFi ή τα δεδομένα κινητής τηλεφωνίας\nκαι δοκιμάστε εκ νέου.</string>
+    <string name="alert_no_gps">Η συσκευή δεν υποστηρίζει την υπηρεσία GPS που απαιτείται από την εφαρμογή.</string>
+    <string name="alert_no_sensors">Η συσκευή σας δεν υποστήρίζει τους κατάλληλους αισθητήρες για τη λειτουργία της εφαρμογής.</string>
+    <string name="alert_problem_data">Υπήρξε κάποιο πρόβλημα στην συλλογή όλων των απαραίτητων πληροφοριών.\nΠαρακαλώ δοκιμάστε ξανά.</string>
+    <string name="alert_gps">Η εφαρμογή απαιτεί την υπηρεσία GPS.\nΕνεργοποιήστε τες και δοκιμάστε εκ νέου.</string>
+    <string name="alert_missing_id">Υπήρξε κάποιο πρόβλημα κατά την είσοδό σας.\nΠαρακλώ επιστρέψτε στην καρτέλα του λογαρισμού και δοκιμάστε ξανά.</string>
+    <string name="SearchInstructions">Κρατήστε τη συσκευή σας σε οριζόντια θέση και δείξε με το βέλος την κατεύθυνση από την οποία επιθυμείτε να είναι η φωτογραφία.</string>
+    <string name="UploadInstructions">Κρατήστε τη συσκευή σας σε οριζόντια θέση και δείξε με το βέλος την κατεύθυνση από την οποία θα είναι η φωτογραφία σας.</string>
+    <string name="RevokeAccess">Aνάκληση άδειας</string>
+
+
+</resources>

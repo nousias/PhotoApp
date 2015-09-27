@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="it21026.photoapp.TakePhoto">
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="350dp"
+        android:id="@+id/UploadThumbnail"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/NameEditTakePhoto"
+        android:textSize="20sp"
+        android:maxLength="100"
+        android:visibility="visible"
+        android:layout_below="@+id/PhotoNameTakePhoto"
+        android:layout_toRightOf="@+id/space2"
+        android:layout_alignRight="@+id/MorePhotoInfo"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/soft_white"
+        android:background="@drawable/photoapptheme_edit_text_holo_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PhotoName"
+        android:id="@+id/PhotoNameTakePhoto"
+        android:textSize="25sp"
+        android:visibility="visible"
+        android:layout_below="@+id/MorePhotoInfo"
+        android:layout_toRightOf="@+id/space2"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/soft_white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PhotoDescription"
+        android:id="@+id/PhotoDescriptionTakePhoto"
+        android:textSize="25sp"
+        android:visibility="visible"
+        android:layout_below="@+id/NameEditTakePhoto"
+        android:layout_toRightOf="@+id/space2"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/soft_white"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/DescriptionEditTakePhoto"
+        android:textSize="20sp"
+        android:textColor="@color/soft_white"
+        android:visibility="visible"
+        android:layout_toRightOf="@+id/space2"
+        android:layout_below="@+id/PhotoDescriptionTakePhoto"
+        android:layout_alignRight="@+id/NameEditTakePhoto"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/photoapptheme_edit_text_holo_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OK"
+        android:id="@+id/OKTakePhoto"
+        android:textSize="30sp"
+        android:visibility="visible"
+        android:layout_below="@+id/DescriptionEditTakePhoto"
+        android:layout_toRightOf="@+id/space2"
+        android:layout_alignRight="@+id/DescriptionEditTakePhoto"
+        android:layout_marginTop="60dp"
+        android:background="@color/soft_white"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AdditionalPhotoInfo"
+        android:id="@+id/MorePhotoInfo"
+        android:textSize="25sp"
+        android:visibility="visible"
+        android:layout_above="@+id/UploadThumbnail"
+        android:layout_toRightOf="@+id/space2"
+        android:textColor="@color/soft_white"/>
+
+    <Space
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/UploadThumbnail"
+        android:id="@+id/space2" />
+</RelativeLayout>

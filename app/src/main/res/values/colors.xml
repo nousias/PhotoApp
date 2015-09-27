@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!--The color code for the texts-->
+    <color name="soft_white">#f0f0f0</color>
+
+    <color name="blue">#007ACC</color>
+
+
+</resources>

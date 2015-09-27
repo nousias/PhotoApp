@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/PhotoListResult_Thumbnail"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/PhotoListResult_Name"
+        android:textSize="20sp"
+        android:layout_below="@+id/PhotoListResult_Name_Label"
+        android:layout_alignRight="@+id/PhotoListResult_Description_Label"
+        android:layout_toRightOf="@+id/space"
+        android:textColor="@color/soft_white"
+        android:text="@string/NotAvailable" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/PhotoListResult_Description"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/PhotoListResult_Date"
+        android:layout_below="@+id/PhotoListResult_Description_Label"
+        android:layout_toRightOf="@+id/space"
+        android:textColor="@color/soft_white" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/PhotoListResult_Date"
+        android:layout_below="@+id/PhotoListResult_Thumbnail"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@+id/PhotoListResult_Description"
+        android:textColor="@color/soft_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/ResultRow_Name"
+        android:id="@+id/PhotoListResult_Name_Label"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/space"
+        android:textColor="@color/soft_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/ResultRow_Description"
+        android:id="@+id/PhotoListResult_Description_Label"
+        android:layout_below="@+id/PhotoListResult_Name"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/space"
+        android:textColor="@color/soft_white" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/PhotoListResult_Thumbnail"
+        android:id="@+id/space"
+        android:layout_alignBottom="@+id/PhotoListResult_Date" />
+
+</RelativeLayout>

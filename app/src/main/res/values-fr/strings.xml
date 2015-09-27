@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="action_logout">déconnecter</string>
+    <string name="action_profile">Profil</string>
+    <string name="action_login">connecter</string>
+    <string name="action_language">langue</string>
+    <string name="action_about">A propos de l\'application</string>
+
+    <string name="Welcome">Bienvenue!</string>
+    <string name="MainActivity1">Tu peux</string>
+    <string name="Search">Recherche</string>
+    <string name="MainActivity2">pour une image</string>
+    <string name="Upload">Télécharger</string>
+    <string name="MainActivity3">un de tes propres</string>
+    <string name="AboutInfo">Cette application est encore en développement. Si des problems sont trouvés s\'il vous plaît contactez-moi..</string>
+    <string name="Creator">Nousias Athanasios</string>
+    <string name="LoginPrompt">Please vous connecter avec votre Google Account</string>
+    <string name="SearchInstructions">Vous tenez le téléphone en position horizontale.</string>
+    <string name="PressNext">Appuyez sur Suivant quand vous serez prêt.</string>
+    <string name="OK">OK</string>
+    <string name="Next">Suivant</string>
+    <string name="Logout">Déconnecter</string>
+    <string name="RevokeAccess">Révoquer l\'accès</string>
+    <string name="UserDataError">Il y avait une erreur.</string>
+    <string name="SigningIn">Connectez-vous &#8230;</string>
+    <string name="SigningOut">Déconnexion &#8230;</string>
+    <string name="Connecting">Connexion &#8230;</string>
+    <string name="LoadingUserInfo">Chargement votre compte information</string>
+    <string name="ConnectedUser">Vous avez connecté avec succès!</string>
+    <string name="ToastLogin">Vous devez connecter pour pouvoir télécharger une photo.</string>
+    <string name="EmptyResults">Il n\'y avait Photos correspondant à votre emplacement actuel, vous pouvez essayer de nouveau un autre.</string>
+    <string name="SuccessfulSearch">Recherche était un succès! Downloading photos.</string>
+    <string name="Searching">Recherche &#8230;</string>
+    <string name="ResultRow_Name">Nom: </string>
+    <string name="ResultRow_Description">Description: </string>
+    <string name="NotAvailable">Indisponible</string>
+    <string name="ErrorUploadData">Il y avait une erreur S\'il vous plaît essayer à nouveau.</string>
+    <string name="ErrorUploadPhoto">Il y avait une erreur. S\'il vous plaît essayer à nouveau.</string>
+    <string name="SuccessfulUploadPhoto">La photo a été uploadé sur le serveur avec succès!</string>
+    <string name="ServerError">Il y avait une erreur. S\'il vous plaît essayer à nouveau.</string>
+    <string name="AdditionalPhotoInfo">Ivous pouvez ajouter un nom et une description à votre photo.</string>
+    <string name="PhotoName">Nom</string>
+    <string name="Or">ou</string>
+    <string name="PhotoDescription">Description</string>
+    <string name="NoCameraSupport">"Désolé, votre appareil ne fonctionne pas de toute application de la caméra"</string>
+    <string name="ImageCaptureCanceled">Capture d\'image a été annulée.</string>
+    <string name="ImageCaptureError">Il y avait une erreur. S\'il vous plaît essayer à nouveau</string>
+    <string name="UploadData">Envoi de données vers le serveur, s\'il vous plaît patienter.</string>
+    <string name="UploadPhoto">Envoi de données vers le serveur, s\'il vous plaît patienter.</string>
+    <string name="ImageFileError">Il y avait une erreur. S\'il vous plaît essayer à nouveau.</string>
+    <string name="FileTooBig">La taille de la photo est grande. S\'il vous plaît essayer à nouveau.</string>
+    <string name="UploadInstructions">Vous tenez le téléphone en position horizontale.</string>
+    <string name="UploadStep2Instructions">Maintenant l\'emplacement iprendre la photo.</string>
+
+    <string name="alert_internet_gps">Un services de connexion à Internet et GPS sont nécessaires.\nS\'il vous plaît essayer à nouveau.</string>
+    <string name="alert_internet">Un services de connexion à Internet est nécessaires.\nS\'il vous plaît essayer à nouveau.</string>
+    <string name="alert_gps">Un services de connexion à GPS est nécessaires.\nOn S\'il vous plaît essayer à nouveau.</string>
+    <string name="alert_problem_data">Il y avait une erreur des data.\nS\'il vous plaît essayer à nouveau.</string>
+    <string name="alert_missing_id">Il y avait une erreur connecter, S\'il vous plaît essayer à nouveau.</string>
+    <string name="alert_no_sensors">Votre appareil ne semble pas avoir les capteurs appropriés pour soutenir la demande.</string>
+    <string name="alert_no_gps">Votre appareil ne prend pas en charge les services de GPS qui sont requis par le applcation.</string>
+
+</resources>

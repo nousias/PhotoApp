@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_logout">Abmelden</string>
+    <string name="action_profile">Profil</string>
+    <string name="action_login">Anmelden</string>
+    <string name="action_language">Sprache</string>
+    <string name="action_about">Über die Anwendung</string>
+
+    <string name="Welcome">Willkommen!</string>
+    <string name="MainActivity1">Sie können</string>
+    <string name="Search">Suchen</string>
+    <string name="MainActivity2">für ein Bild</string>
+    <string name="Upload">Hochladen</string>
+    <string name="MainActivity3">ein eigenes</string>
+    <string name="AboutInfo">Diese Anwendung ist noch in der Entwicklung. Wenn irgendwelche Fehler auftretten bitte kontaktieren Sie mich .</string>
+    <string name="Creator">Nousias Athanasios</string>
+    <string name="LoginPrompt">Bitte melden Sie sich mit ihrem Google Account </string>
+    <string name="SearchInstructions">Halten Sie ihr Telefon in einer horizontalen Position und richten Sie die Oberseite des Pfeils an der Stelle wo Sie ihr Bild haben möchten</string>
+    <string name="PressNext">Drücken Sie auf weiter sobald Sie bereit sind.</string>
+    <string name="OK">OK</string>
+    <string name="Next">Weiter</string>
+    <string name="Logout">Abmelden</string>
+    <string name="RevokeAccess">Zugriff widerrufen</string>
+    <string name="UserDataError">Ein Fehler ist beim Abrufen von Benutzerdaten aufgetretten.</string>
+    <string name="SigningIn">Anmelden &#8230;</string>
+    <string name="SigningOut">Abmelden &#8230;</string>
+    <string name="Connecting">Verbindung wird hergestellt &#8230;</string>
+    <string name="LoadingUserInfo">Konto wird geladen\'s information</string>
+    <string name="ConnectedUser">Die Verbindung war erfolgreich</string>
+    <string name="ToastLogin">Sie müssen Sich erst anmelden um ein Bild hochladen zu können</string>
+    <string name="EmptyResults">Es wurden keine Bilder gefunden die Ihren aktuellen Standort zutreffen, Sie können es wieder von einem anderen Standort versuchen.</string>
+    <string name="SuccessfulSearch">Die Suche war erfolgreich! Bilder werden heruntergeladen.</string>
+    <string name="Searching">Suchen &#8230;</string>
+    <string name="ResultRow_Name">Name: </string>
+    <string name="ResultRow_Description">Beschreibung: </string>
+    <string name="NotAvailable">Nicht verfügbar</string>
+    <string name="ErrorUploadData">Ein Fehler ist beim hochladen der Information des/der Bildes/er an den Server aufgetretten. Bitte versuchen Sie es erneut.</string>
+    <string name="ErrorUploadPhoto">Ein Fehler ist beim hochladen des Bildes aufgetretten. Bitte versuchen Sie es erneut.</string>
+    <string name="SuccessfulUploadPhoto">Bild wurde erfolreich an den Server hochgeladen!</string>
+    <string name="ServerError">Ein Fehler ist bei der Übertragung mit dem Server aufgetretten. Bitte versuchen Sie es erneut.</string>
+    <string name="AdditionalPhotoInfo">Falls Sie es möchten können Sie zu Ihren Bild einen Namen und eine Beschreibung hinzufügen.</string>
+    <string name="PhotoName">Name</string>
+    <string name="Or">Oder</string>
+    <string name="PhotoDescription">Beschreibung</string>
+    <string name="NoCameraSupport">"Es tut uns leid, Ihr Gerät untestüzt keine Kamera Anwendungen"</string>
+    <string name="ImageCaptureCanceled">Bilderfassung wurde abgesagt.</string>
+    <string name="ImageCaptureError">Ein Fehler ist bei der Erfassung des Bildes aufgetretten. Bitte versuchen Sie es erneut.</string>
+    <string name="UploadData">Daten werden an den Server hochgeladen, bitte warten Sie.</string>
+    <string name="UploadPhoto">Bikd wird an den Server hochgeladen, bitte warten Sie.</string>
+    <string name="ImageFileError">Ein Fehler ist bei der Erstellung der Bilddatei aufgetretten. Bitte versuchen Sie es erneut.</string>
+    <string name="FileTooBig">Der Bildformat ist zu groß. Passen Sie ihre Kamera Einstellungen an und versuchen Sie es erneut.</string>
+    <string name="UploadInstructions">Halten Sie ihr Telefon in einer horizontalen Position und richten Sie die Oberseite des Pfeils an der Stelle wo Sie ihr Bild haben möchten.</string>
+    <string name="UploadStep2Instructions">Da Ihre Standorts Informationen aufgezeichnet wurden, ist der nächste Schritt die Bildaufnahme.</string>
+
+    <string name="alert_internet_gps">Eine Internet Verbindung und GPS-Dienste sind erforderlich.\nSchalten Sie sie ein und versuchen Sie es erneut.</string>
+    <string name="alert_internet">Eine Internet Verbindung ist erforderlich.\nSchalten Sie ihr WiFi oder Mobiles Netz ein und versuchen Sie es erneut.</string>
+    <string name="alert_gps">GPS-Dienste sind erforderlich.\nBitte schalten sie ihr GPS ein und versuchen Sie es erneut.</string>
+    <string name="alert_problem_data">Ein Fehler ist bei der Erhebung aller notwendigen Daten aufgetretten .\nBitte versuchen Sie es erneut.</string>
+    <string name="alert_missing_id">Die Anmeldung war nicht erfolgreich, bitte gehen Sie zurück und versuchen Sie es erneut .</string>
+    <string name="alert_no_sensors">Ihr Gerät scheint nicht über die entsprechenden Sensoren zu verfügen um die Anwendung zu unterstützen.</string>
+    <string name="alert_no_gps">Ihr Gerät verfügt über keine GPS-Dienste die für die Anwendung erforderlich sind.</string>
+
+</resources>

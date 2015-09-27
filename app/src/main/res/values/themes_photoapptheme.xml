@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="PhotoAppTheme" parent="@style/_PhotoAppTheme"/>
+
+  <style name="_PhotoAppTheme" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/photoapptheme_edit_text_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonPhotoAppTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonPhotoAppTheme</item>
+
+  </style>
+
+</resources>
